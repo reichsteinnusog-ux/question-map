@@ -11,12 +11,12 @@
 页面里放一段地图文字，再加载 `qmap.js`：
 
 ```html
-<script type="text/markdown" id="qmap">
+<textarea id="qmap" hidden>
 # 地图：标题
 ## r｜根问题
 ### 一个画面
 ……
-</script>
+</textarea>
 <script src="https://cdn.jsdelivr.net/gh/reichsteinnusog-ux/question-map@main/qmap.js"></script>
 ```
 
